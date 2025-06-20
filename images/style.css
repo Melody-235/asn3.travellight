@@ -1,0 +1,31 @@
+/* Blank .css file */
+
+body{
+    font-family: Segoe UI Variable;
+}
+
+.container {
+background: white;
+display:flex;
+justify-content: center;
+}
+
+.navbar{
+    width: 1350px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    background-image: url();
+}
+
