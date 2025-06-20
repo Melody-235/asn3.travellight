@@ -1,0 +1,364 @@
+/* Blank .css file */
+
+body{
+    font-family: Segoe UI Variable;
+    background: #FBFFFB;
+}
+
+
+
+.container-navbar {
+background: white;
+display:flex;
+justify-content: center;
+}
+
+.navbar{
+    width: 1350px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-g {
+    width: 100%;
+    height: 993px;
+    background-image: url('images/background.png');
+    background-size: cover;
+    text-align: center;
+    z-index: 0;
+}
+
+label   {    
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 120px;
+    font-style: italic;
+    line-height: 165px;
+    z-index: 20;
+}
+
+
+label   {
+    position: absolute;
+    height: 311px;
+    left: -25px;
+    top: 201.64px;
+}
+
+
+ 
+
+h1 {
+    position: relative;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 96px;
+    color: #678E68;
+}
+
+h1 span {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+h1:before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: #D2EB89;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+
+
+h2 {
+    position: relative;
+    margin-left: 550px;
+    width: 600px;
+    font-family: 'Source Serif Pro' , Bold,  serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    color: #678E68;
+}
+
+
+h3 {
+   margin-top: 0px;
+   margin-left: 600px;
+   width: 250px;
+   position: relative;
+   font-family: 'Source Serif Pro' , Bold , serif;
+   font-weight: 700;
+   font-size: 30px;
+   font-style: italic;
+   color: #678E68; 
+}
+
+h4  {
+    margin-top: 0px;
+   margin-left: 10px;
+   width: 600px;
+   position: relative;
+   font-family: 'Source Serif Pro' , Bold , serif;
+   font-weight: 700;
+   font-size: 25px;
+   color: #678E68; 
+}
+
+h5  { position: relative;
+    margin-top: 0px;
+    font-family: 'Source Serif Pro' , Bold,  serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    color: #678E68;
+}
+   
+
+
+h6 {
+    position: relative;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 96px;
+    color: #678E68;
+    margin: 0;
+}
+
+h6 span {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-top: 20px;
+}
+
+h6:before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: #D2EB89;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+
+.p{
+    font-family: 'Segoe UI Variable', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color:black;
+}
+
+.travel-light{
+    font-size: 30px;
+    width:630px;
+}
+
+.new-travel {
+    margin-top: -12px;
+    font-size: 30px;
+}
+
+
+.garden {
+    font-size: 25px;
+    text-align: center;
+}
+
+.summer {
+    font-family: 'Source Serif Pro' , Bold , serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    color: #678E68;
+    margin: 0;
+}
+
+
+.description {
+    width: 500px;
+    font-size: 25px;
+}
+
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: rgba(237,240,237,100);
+    padding: 35px;
+}
+
+
+.container-a {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-b {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-c {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-d {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title-japan:before {width: 200px;}
+
+.title-japan {
+    padding-left: 100px;
+}
+
+.box-a {
+    position: relative;
+    padding-bottom:120px;
+}
+
+.box-a .textbox {
+    position: absolute;
+    left: 550px;
+    top: 375px;
+    width: 358px;
+    height: 600px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-a .textbox p {
+    margin: 0;
+}
+
+.box-a .textbox-b {
+    position: absolute;
+    left: 800px;
+    top: 270px;
+    width: 400px;
+    height:30px;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.box-a .textbox-c {
+    position: absolute;
+    left: 800px;
+    top: 350px;
+    width: 320px;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.box-a .textbox-d {
+    width: 700px;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.card-2{
+    margin-top: 50px;
+}
+
+
+.cs {
+    font-family: 'Figma Hand';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    background: rgb(251, 201, 74, 100);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.button {
+    display: inline-block;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #678E68;
+    color: #678E68;
+    text-decoration: none;
+    font-family: 'Source Serif Pro' , Bold , serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+
+.flex-b {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.wrap {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.wrap .left {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.wrap .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+/* 
+padding
+margin-border
+border-radius 
+*/
